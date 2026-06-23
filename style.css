@@ -232,6 +232,36 @@ section {
   white-space: nowrap;
 }
 
+.pub-status {
+  display: inline-block;
+  margin-left: 0.45rem;
+  padding: 0.08rem 0.42rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  line-height: 1.4;
+  font-weight: 600;
+  white-space: nowrap;
+  vertical-align: 0.08em;
+}
+
+.pub-status-published {
+  color: #3f5f47;
+  background: #eef4ef;
+  border: 1px solid #d6e4d8;
+}
+
+.pub-status-review {
+  color: #7a5a16;
+  background: #f7f1df;
+  border: 1px solid #ead9a8;
+}
+
+.pub-status-working {
+  color: #666666;
+  background: #f2f2f2;
+  border: 1px solid #dddddd;
+}
+
 .small-note {
   color: var(--muted);
   font-size: 14px;

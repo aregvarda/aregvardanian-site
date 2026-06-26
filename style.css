@@ -262,6 +262,19 @@ section {
   border: 1px solid #dddddd;
 }
 
+.pub-summary {
+  display: block;
+  margin-top: 0.55rem;
+  color: var(--muted);
+  font-size: 0.95rem;
+  line-height: 1.65;
+}
+
+.pub-summary strong {
+  color: var(--text);
+  font-weight: 600;
+}
+
 .small-note {
   color: var(--muted);
   font-size: 14px;
